@@ -8,10 +8,10 @@ class Gravity:
     Ruv - 1/2Rguv = 8piG/c^4Tuv
     """
 
-    k = (8 * pi * G) / (speed_of_light ** 4) # Einstien Gravitational Constant
+
     def __init__(self, spacetime):
         self.spacetime = spacetime
-        
+        self.k = (8 * pi * G) / (speed_of_light ** 4) # Einstien Gravitational Constant
     def calculate_metric_tensor(self):
         pass
 
